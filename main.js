@@ -101,6 +101,28 @@
         {id: 14, name: 'French', roast: 'dark'},
     ];
     tbody.innerHTML = renderCoffees(coffees);
+    var coffeeSubmit = document.querySelector('#coffee-submit');
+
+    function coffeeTrivia(){
+        var randomTrivia = Math.floor(Math.random() * (coffeeFacts.length));
+        document.getElementById("message").innerHTML = coffeeFacts[randomTrivia];
+    } coffeeSubmit.addEventListener('click', coffeeTrivia);
+    var coffeeFacts = [
+        'Coffee was the first food to be freeze-dried.',
+        '40% of the world’s coffee is produced by Colombia and Brazil.',
+        'Kopi Luwak, the world’s most expensive coffee (up to $600 per pound), is made from coffee beans eaten and then excreted by a Sumatran wild cat.',
+        'People who drink coffee are less likely to develop cirrhosis.',
+        'Coffee is the world\'s 2nd largest traded commodity.',
+        'Coffee was banned in Mecca in 1511. It was believed to stimulate radical thinking and idleness.',
+        'The word espresso comes from Italian and means “expressed” or “forced out”.',
+        'Coffee is a fruit!',
+        'Some 16th-century Italian clergymen also tried to ban coffee because they believed it to be "satanic." However, Pope Clement VII loved coffee so much that he lifted the ban and had coffee baptized in 1600.',
+    'The average adult in Finland goes through 27.5 pounds of coffee each year, according to the International Coffee Organization.',
+    'Beethoven counted the number of coffee beans he used to make his coffee and insisted on 60 beans per cup.',
+    'The average coffee drinker consumes 3 cups of coffee per day.',
+    'Coffee bushes live 60 to 70 years.',
+    'During Turkish wedding ceremonies, grooms were made to vow to always provide their brides with coffee. Failure to do so could result in divorce.',
+    'The Boston Tea Party resulted in Americans switching from tea to coffee as an expression of freedom.',     'The term “cup of Joe” comes from the American soldiers also known as GI Joes of WWII who loved their coffee and were big drinkers.'];
 
 }());
 

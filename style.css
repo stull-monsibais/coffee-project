@@ -60,7 +60,7 @@ footer {
     background-size: auto;
     background-attachment: fixed;
 }
-.jumbotron {
+.jumbotron1 {
     background: url("img/coffeeshop_header.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,6 +72,22 @@ footer {
     box-sizing: border-box;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
     transform-style: inherit;
+}
+
+.jumbotron2 {
+    background: url("img/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 465px;
+    width: 100%;
+    color: ghostwhite;
+    position: relative;
+    padding: 25vh 10%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .5);
+    transform-style: inherit;
+    margin-bottom: 8em;
 }
 
 .our-story-block {
@@ -114,6 +130,19 @@ footer {
 #our-story:before {
     transform: translateZ(-1px) scale(2);
 }
+
+#coffee-submit {
+    color: ghostwhite;
+}
+
+#message {
+    padding: 2em 0;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px black;
+    color: mistyrose;
+    font-weight: bold;
+}
+
 #roast-selection, #new-roast {
     width: 450px;
     height: 35px;
