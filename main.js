@@ -122,7 +122,9 @@
     'The average coffee drinker consumes 3 cups of coffee per day.',
     'Coffee bushes live 60 to 70 years.',
     'During Turkish wedding ceremonies, grooms were made to vow to always provide their brides with coffee. Failure to do so could result in divorce.',
-    'The Boston Tea Party resulted in Americans switching from tea to coffee as an expression of freedom.',     'The term “cup of Joe” comes from the American soldiers also known as GI Joes of WWII who loved their coffee and were big drinkers.'];
+    'The Boston Tea Party resulted in Americans switching from tea to coffee as an expression of freedom.',     'The term “cup of Joe” comes from the American soldiers also known as GI Joes of WWII who loved their coffee and were big drinkers.',
+    'The French philosopher Voltaire is said to have drank 50 cups of coffee a day.', 'Irish coffee was actually invented to warm up cold American plane passengers leaving from Ireland.',
+    'President Teddy Roosevelt consumed a gallon of coffee a day.'];
 
 }());
 
